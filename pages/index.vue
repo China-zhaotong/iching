@@ -43,7 +43,7 @@
                 </div>
             </div>
         </nav>
-        <h1>你好昭通</h1>
+        <h1>你好1231231231</h1>
     </div>
 </template>
 <script setup lang="ts">
