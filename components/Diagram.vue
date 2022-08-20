@@ -3,19 +3,27 @@
 </template>
 <script setup lang="ts">
 const gua = ref(null);
+
+const props = defineProps({
+    yaoArrs: { type: Array, required: true },
+})
 let drawGua = function (canvas: HTMLCanvasElement) {
     let cxt = canvas.getContext("2d");
-    cxt.fillStyle = "#dc3545"
-    cxt.fillRect(50, 10, 200, 20)
-    cxt.fillRect(50, 40, 200, 20)
-    cxt.fillRect(50, 70, 200, 20)
-    cxt.fillRect(50, 100, 200, 20)
-    cxt.fillRect(50, 130, 200, 20)
-    cxt.fillRect(50, 160, 200, 20)
+    props.yaoArrs.forEach((item, index) => {
+        if (item) {
+            cxt.fillStyle = "#dc3545"
+            cxt.fillRect(50, 10 + 30 * index, 200, 20)
+        } else {
+            cxt.fillStyle = "#dc3545"
+            cxt.fillRect(50, 10 + 30 * index, 90, 20)
+            cxt.fillRect(160, 10 + 30 * index, 90, 20)
+        }
+    })
 }
 
 onMounted(() => {
     drawGua(gua.value)
+    console.log(props.yaoArrs)
 })
 
 
