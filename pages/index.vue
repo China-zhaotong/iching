@@ -43,7 +43,7 @@
                 </div>
             </div>
         </nav>
-          <h1 style="margin-top:15px" v-for="n in 1000" :key="n">测试测试</h1>
+        <h1>你好昭通</h1>
     </div>
 </template>
 <script setup lang="ts">
