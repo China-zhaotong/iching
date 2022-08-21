@@ -23,7 +23,6 @@ let drawGua = function (canvas: HTMLCanvasElement) {
 
 onMounted(() => {
     drawGua(gua.value)
-    console.log(props.yaoArrs)
 })
 
 

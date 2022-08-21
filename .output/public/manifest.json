@@ -1,6 +1,6 @@
 {
   "node_modules/nuxt/dist/app/entry.mjs": {
-    "file": "_nuxt/entry.64c04cac.mjs",
+    "file": "_nuxt/entry.9c42cc95.mjs",
     "src": "node_modules/nuxt/dist/app/entry.mjs",
     "isEntry": true,
     "dynamicImports": [
@@ -8,11 +8,11 @@
       "virtual:nuxt:C:/github/iching/.nuxt/error-component.mjs"
     ],
     "css": [
-      "_nuxt/entry.6acacc8d.css"
+      "_nuxt/entry.49df1aa0.css"
     ]
   },
   "virtual:nuxt:C:/github/iching/.nuxt/error-component.mjs": {
-    "file": "_nuxt/error-component.b8740a2f.mjs",
+    "file": "_nuxt/error-component.3c0dc648.mjs",
     "src": "virtual:nuxt:C:/github/iching/.nuxt/error-component.mjs",
     "isDynamicEntry": true,
     "imports": [
@@ -24,18 +24,18 @@
     ]
   },
   "pages/index.vue": {
-    "file": "_nuxt/index.a98e114f.mjs",
+    "file": "_nuxt/index.c38358e2.mjs",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs"
     ],
     "css": [
-      "_nuxt/index.4e3bd83f.css"
+      "_nuxt/index.54d06fea.css"
     ]
   },
   "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
-    "file": "_nuxt/error-404.810ec50b.mjs",
+    "file": "_nuxt/error-404.93d2364a.mjs",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -46,7 +46,7 @@
     ]
   },
   "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": {
-    "file": "_nuxt/error-500.e839880a.mjs",
+    "file": "_nuxt/error-500.40bc4768.mjs",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -57,7 +57,7 @@
     ]
   },
   "node_modules/nuxt/dist/app/entry.css": {
-    "file": "_nuxt/entry.6acacc8d.css",
+    "file": "_nuxt/entry.49df1aa0.css",
     "src": "node_modules/nuxt/dist/app/entry.css"
   },
   "node_modules/@nuxt/ui-templates/dist/templates/error-500.css": {
@@ -69,7 +69,7 @@
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.css"
   },
   "pages/index.css": {
-    "file": "_nuxt/index.4e3bd83f.css",
+    "file": "_nuxt/index.54d06fea.css",
     "src": "pages/index.css"
   }
 }
